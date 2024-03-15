@@ -1,0 +1,12 @@
+{
+	"html.format.wrapAttributes": "force-expand-multiline",
+	"editor.formatOnSave": true,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"prettier.useTabs": true,
+	"prettier.vueIndentScriptAndStyle": false,
+	"vue.format.script.initialIndent": false,
+	"vue.format.template.initialIndent": true,
+	"prettier.tabWidth": 4
+}
