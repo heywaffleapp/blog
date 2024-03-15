@@ -6404,18 +6404,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-app@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nuxt-app@workspace:."
-  dependencies:
-    "@nuxt/content": "npm:^2.12.1"
-    "@nuxthq/studio": "npm:^1.0.13"
-    nuxt: "npm:^3.10.3"
-    vue: "npm:^3.4.21"
-    vue-router: "npm:^4.3.0"
-  languageName: unknown
-  linkType: soft
-
 "nuxt-component-meta@npm:^0.6.3":
   version: 0.6.3
   resolution: "nuxt-component-meta@npm:0.6.3"
@@ -9106,6 +9094,18 @@ __metadata:
   checksum: 10c0/70806fdfe2f34387dd043403f3cf0946f43216090832c2a0be06e88d6feabba28a0aa05dc75777a1cb1aa770b24c015206519a20752faf0f6ed4d9b7568f0400
   languageName: node
   linkType: hard
+
+"waffle-blog@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "waffle-blog@workspace:."
+  dependencies:
+    "@nuxt/content": "npm:^2.12.1"
+    "@nuxthq/studio": "npm:^1.0.13"
+    nuxt: "npm:^3.10.3"
+    vue: "npm:^3.4.21"
+    vue-router: "npm:^4.3.0"
+  languageName: unknown
+  linkType: soft
 
 "web-namespaces@npm:^2.0.0":
   version: 2.0.1
