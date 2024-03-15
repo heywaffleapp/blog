@@ -1,1 +1,1 @@
-# Hello Nuxt
+# Welcome to Waffle's blog
