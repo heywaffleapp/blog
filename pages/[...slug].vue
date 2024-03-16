@@ -4,7 +4,7 @@
 			<div class="flex flex-row mx-auto max-w-[1200px] relative">
 				<div>
 					<NuxtLink
-						class="absolute text-gray-400 text-sm gap-2 flex flex-row items-center"
+						class="absolute hover:text-yellow-400 text-gray-400 gap-2 flex flex-row items-center"
 						to="/"
 					>
 						<SVGBack class="w-5" />
@@ -12,9 +12,19 @@
 					</NuxtLink>
 				</div>
 				<div class="mx-auto max-w-prose">
-					<span class="text-gray-400 text-sm">{{ doc.published }}</span>
+					<div class="flex flex-row gap-2 items-center">
+						<span class="text-gray-400">{{ doc.published }}</span>
+						<NuxtLink
+							class="hover:text-yellow-500 text-gray-800 underline"
+							:to="`/${doc.topic}`"
+						>
+							<p class="capitalize">
+								{{ doc.topic }}
+							</p>
+						</NuxtLink>
+					</div>
 					<h1 class="text-6xl font-bold my-3">{{ doc.title }}</h1>
-					<div class="text-gray-900">By {{ doc.author }}</div>
+					<div class="text-gray-900 font-medium">By {{ doc.author }}</div>
 				</div>
 			</div>
 			<img

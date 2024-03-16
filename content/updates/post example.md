@@ -1,9 +1,10 @@
 ---
-title: 'Introduction 4'
-description: 'Description here goes'
-published: '2024-03-13'
-img: '/img/waffle.jpg'
-author: Daniel Chung
+title: 'This is a blog post example'
+description: 'This is a sample description for the blog post, change it accordingly'
+published: '2024-03-15'
+img: 'https://ik.imagekit.io/waffle/blog/honeyblueberry.webp'
+author: Jorge Ou
+topic: updates
 ---
 <!--more-->
 
