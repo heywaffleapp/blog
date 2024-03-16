@@ -6,7 +6,7 @@
 		</p>
 	</div>
 	<div class="mx-auto max-w-[1000px] mb-36">
-		<div class="grid grid-cols-2 gap-12">
+		<div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
 			<ContentQuery
 				path="updates"
 				:limit="10"
@@ -14,10 +14,12 @@
 				v-slot="{ data }"
 			>
 				<div v-for="item in data">
-					<img
-						class="aspect-video object-cover object-center rounded-3xl mb-2"
-						:src="item.img"
-					/>
+					<NuxtLink :to="item._path">
+						<img
+							class="aspect-video object-cover object-center rounded-3xl mb-2"
+							:src="`${item.img}?tr=w-500`"
+						/>
+					</NuxtLink>
 					<h4 class="text-gray-400 font-medium my-4 text-xs">
 						{{ item.published }}
 					</h4>

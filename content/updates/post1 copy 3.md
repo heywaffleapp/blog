@@ -1,8 +1,10 @@
 ---
-title: 'Introduction 2'
+title: 'A new waffle flavour'
 description: 'Description here goes'
 published: '2024-03-15'
-img: '/img/waffle.jpg'
+img: 'https://ik.imagekit.io/waffle/blog/honeyblueberry.webp'
+author: Jorge Ou
+topic: Updates
 ---
 <!--more-->
 

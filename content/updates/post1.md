@@ -3,6 +3,7 @@ title: Introduction
 description: The first post of 2024
 published: '2024-03-12'
 img: /img/waffle.jpg
+author: Daniel Chung
 ---
 
 <!--more-->

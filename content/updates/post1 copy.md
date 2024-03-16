@@ -3,6 +3,7 @@ title: 'Introduction 4'
 description: 'Description here goes'
 published: '2024-03-13'
 img: '/img/waffle.jpg'
+author: Daniel Chung
 ---
 <!--more-->
 
