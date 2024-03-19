@@ -72,6 +72,9 @@ useSeoMeta({
 	ogDescription:
 		"Explore out latest product updates, new features, founder stories, user insights and productivity tips.",
 	ogImage: "https://ik.imagekit.io/waffle/blog/Frame%20129.webp",
-	twitterCard: "summary_large_image",
+	ogImageAlt: "Dynamic widgets of the visual organization app Waffle",
+	ogUrl: "https://blog.heywaffle.app",
+	articleAuthor: "Daniel Chung",
+	ogType: "website",
 });
 </script>
