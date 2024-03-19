@@ -19,11 +19,7 @@ We have created accounts in every corner of the Internet.
 
 We have files, folders, documents, links, photos and videos scattered _everywhere_, and _nowhere_ at the same time.
 
-Our digital life is a mess.
-
-We need a space to organize our lives' essentials in a single view.
-
-Introducing **Waffle**, the visual organization app.
+Our digital life is a mess. We need a space to organize our life's essentials in a single view. That's why we created **Waffle**, the visual organization app.
 
 Imagine a bulletin board or a pegboard for your workspace, dedicated to organize your life. What would you hang or insert into it? Your to-do list, this month's calendar, sticky notes with upcoming appointments, and perhaps a habit tracker? Now, envision this concept as a digital app equipped with dynamic widgets, allowing you to arrange them freely and adjust their sizes at will.
 
