@@ -48,8 +48,7 @@ export default {
 				},
 			},
 			fontFamily: {
-				satoshi: ["Satoshi"],
-				dmsans: ["DM Sans"],
+				inter: ["Inter"],
 			},
 		},
 	},

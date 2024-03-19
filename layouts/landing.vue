@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-light font-dmsans grid min-h-screen wrapper mx-[20px]">
+	<div class="bg-light font-inter grid min-h-screen wrapper mx-[20px]">
 		<div class="relative h-full mt-[20px]">
 			<PagesLogo />
 			<PagesButton />

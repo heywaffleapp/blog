@@ -2,9 +2,11 @@
 export default defineNuxtConfig({
 	devtools: { enabled: false },
 	css: [
-		"@/assets/css/fonts/dmsans.css",
-		"@/assets/css/fonts/satoshi.css",
+		"@/assets/css/fonts/inter.css",
 	],
+	tailwindcss: {
+		viewer: false
+	},
 	modules: [
 		'@nuxthq/studio',
 		'@nuxt/content',

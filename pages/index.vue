@@ -1,7 +1,7 @@
 <template>
-	<div class="mx-auto max-w-[600px] text-center mb-20 mt-36">
+	<div class="mx-auto max-w-[700px] text-center mb-20 mt-36">
 		<ContentDoc v-slot="{ doc }">
-			<h1 class="font-bold text-5xl font-dmsans mb-4">{{ doc.title }}</h1>
+			<h1 class="font-bold text-5xl mb-4">{{ doc.title }}</h1>
 			<p class="text-2xl font-regular text-gray-500">
 				{{ doc.description }}
 			</p>
@@ -12,16 +12,16 @@
 			<ContentQuery
 				path="/"
 				:where="{
-					topic_url: {
-						$in: [
-							'features',
-							'insights',
-							'productivity',
-							'stories',
-							'updates',
-						],
-					},
-				}"
+			topic_url: {
+				$in: [
+					'features',
+					'insights',
+					'productivity',
+					'stories',
+					'updates',
+				],
+			},
+		}"
 				:limit="10"
 				:sort="{ published: -1 }"
 				v-slot="{ data }"
@@ -37,15 +37,20 @@
 						{{ item.topic }}
 					</h4>
 					<NuxtLink
-						class="font-bold text-2xl leading-none mb-2 hover:text-yellow-500"
+						class="font-bold text-2xl leading-none hover:text-yellow-500"
 						:to="item._path"
 					>
-						<h3>
+						<h3 class="mt-5">
 							{{ item.title }}
 						</h3>
 					</NuxtLink>
-					<NuxtLink class="text-gray-800 mt-[50px]" :to="item._path">
-						{{ item.description }}
+					<NuxtLink
+						class="text-gray-800"
+						:to="item._path"
+					>
+						<p class="mt-[20px]">
+							{{ item.description }}
+						</p>
 					</NuxtLink>
 				</div>
 			</ContentQuery>

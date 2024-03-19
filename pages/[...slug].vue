@@ -1,11 +1,9 @@
 <template>
-	<div class="mt-36 font-dmsans">
+	<div class="mt-36">
 		<ContentDoc>
 			<template #not-found>Not found</template>
 			<template #default="{ doc }">
-				<div
-					class="grid grid-cols-1 gap-5 sm:grid-cols-4 mx-auto max-w-[1200px] relative"
-				>
+				<div class="grid grid-cols-1 gap-5 sm:grid-cols-4 mx-auto max-w-[1200px] relative">
 					<div class="w-fit">
 						<NuxtLink
 							class="hover:text-yellow-400 text-gray-400 gap-2 flex flex-row items-center"
@@ -15,14 +13,10 @@
 							<p>All posts</p>
 						</NuxtLink>
 					</div>
-					<div
-						class="max-w-prose sm:col-start-2 sm:col-span-3 md:col-span-2"
-					>
+					<div class="max-w-prose sm:col-start-2 sm:col-span-3 md:col-span-2">
 						<div class="flex flex-row gap-2 items-center">
-							<span class="text-gray-400"
-								>Published
-								{{ readableDate(doc.published) }} in</span
-							>
+							<span class="text-gray-400">Published
+								{{ readableDate(doc.published) }} in</span>
 							<NuxtLink
 								class="hover:text-yellow-500 text-gray-800 underline"
 								:to="`/${doc.topic_url}`"
