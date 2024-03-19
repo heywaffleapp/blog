@@ -76,5 +76,6 @@ useSeoMeta({
 	ogUrl: "https://blog.heywaffle.app",
 	articleAuthor: "Daniel Chung",
 	ogType: "website",
+	twitterCard: "summary_large_image",
 });
 </script>
