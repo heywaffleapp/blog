@@ -1,9 +1,7 @@
-<template>
-	Productivity Tips
-</template>
+<template>Productivity tips</template>
 
 <script setup>
 definePageMeta({
-	layout: 'topic'
-})
+	layout: "topic",
+});
 </script>

@@ -1,7 +1,8 @@
 ---
 title: Welcome to Waffle's blog
-description: We'll fill them with sample content, but you can easily remove or personalize them whenever you like
+description: Explore out latest product updates, new features, founder stories, user insights and productivity tips
 ---
+
 <!--more-->
 
 More

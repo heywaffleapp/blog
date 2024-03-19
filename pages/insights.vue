@@ -1,9 +1,7 @@
-<template>
-	User Insights
-</template>
+<template>User insights</template>
 
 <script setup>
 definePageMeta({
-	layout: 'topic'
-})
+	layout: "topic",
+});
 </script>

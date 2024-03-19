@@ -1,9 +1,7 @@
-<template>
-	New Features
-</template>
+<template>New features</template>
 
 <script setup>
 definePageMeta({
-	layout: 'topic'
-})
+	layout: "topic",
+});
 </script>

@@ -1,9 +1,7 @@
-<template>
-	Product Updates
-</template>
+<template>Product updates</template>
 
 <script setup>
 definePageMeta({
-	layout: 'topic'
-})
+	layout: "topic",
+});
 </script>

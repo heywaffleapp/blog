@@ -7,7 +7,7 @@
 
 		<!-- SLOT -->
 		<div class="mx-auto max-w-[1000px]">
-			<h1 class="font-semibold text-5xl capitalize mt-36 mb-12">
+			<h1 class="font-semibold text-5xl mt-36 mb-12">
 				<slot></slot>
 			</h1>
 			<div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
@@ -29,10 +29,7 @@
 							{{ item.title }}
 						</h3>
 					</NuxtLink>
-					<NuxtLink
-						class="text-gray-800"
-						:to="item._path"
-					>
+					<NuxtLink class="text-gray-800" :to="item._path">
 						{{ item.description }}
 					</NuxtLink>
 				</div>
@@ -44,8 +41,10 @@
 </template>
 
 <script setup>
-const route = useRoute()
-const { data } = await useAsyncData('topic', () => queryContent(route.path).sort({ published: -1 }).limit(10).find())
+const route = useRoute();
+const { data } = await useAsyncData("topic", () =>
+	queryContent(route.path).sort({ published: -1 }).limit(10).find()
+);
 </script>
 
 <style scoped>

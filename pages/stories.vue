@@ -1,9 +1,7 @@
-<template>
-	Founder Stories
-</template>
+<template>Founder stories</template>
 
 <script setup>
 definePageMeta({
-	layout: 'topic'
-})
+	layout: "topic",
+});
 </script>

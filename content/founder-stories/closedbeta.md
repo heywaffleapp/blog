@@ -1,10 +1,10 @@
 ---
 title: We began our closed beta
 description: Waffle is ready for testing by a limited number of closed beta users.
-published: '2024-03-26'
+published: "2024-03-19"
 img: https://ik.imagekit.io/waffle/blog/honeyblueberry.webp
 author: Daniel Chung
-topic: founder stories
+topic: Founder stories
 ---
 
 Three months ago, we started building our visual organization app. After hundreds of Discord messages, Figma frames and Github contributions, we are happy to present **Waffle**, a new tool to keep your life organized in a single view.

@@ -1,10 +1,10 @@
 ---
 title: Waffle, the visual organization app
 description: Waffle is ready for testing by a limited number of closed beta users.
-published: '2024-03-26'
+published: "2024-03-26"
 img: https://ik.imagekit.io/waffle/blog/honeyblueberry.webp
 author: Daniel Chung
-topic: founder stories
+topic: Founder stories
 ---
 
 # We use dozens of digital tools.
@@ -27,11 +27,11 @@ Imagine a bulletin board or a pegboard for your workspace, dedicated to organize
 
 Here are a few widget examples:
 
-- A _meals_ widget so you can plan your meals for tomorrow. Homemade pizza for dinner sounds good?
-- A _list_ widget so you don't miss any ingredientes needed for your pizza. Like the pineapple, right?
-- A _mood_ widget so you can express your current mood with an emoji 👨🏻‍🍳.
-- A _link_ widget so you don't lose the TikTok recipe your friend sent you last month.
-- A _weather_ widget so you grab a jacket before heading to buy the pepperoni you forgot on your first run to the grocery store.
+-   A _meals_ widget so you can plan your meals for tomorrow. Homemade pizza for dinner sounds good?
+-   A _list_ widget so you don't miss any ingredientes needed for your pizza. Like the pineapple, right?
+-   A _mood_ widget so you can express your current mood with an emoji 👨🏻‍🍳.
+-   A _link_ widget so you don't lose the TikTok recipe your friend sent you last month.
+-   A _weather_ widget so you grab a jacket before heading to buy the pepperoni you forgot on your first run to the grocery store.
 
 **Waffle** is your new digital home. Home to all your essentials: to-do's, planners, lists, event reminders, notes, quotes, links.
 
