@@ -1,8 +1,8 @@
 ---
 title: We began our closed beta
 description: After three months of builiding Waffle, we are ready for testing by a limited number of closed beta users.
-published: "2024-03-19"
-img: https://ik.imagekit.io/waffle/blog/honeyblueberry.webp
+published: "2024-03-20"
+img: https://ik.imagekit.io/waffle/blog/1.png
 author: Daniel Chung
 alt: "Honey Blue Berry Waffle"
 topic: Founder stories
