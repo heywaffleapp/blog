@@ -10,7 +10,8 @@
 	<div class="mx-auto max-w-[1000px]">
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
 			<ContentQuery
-				path="updates"
+				path="/"
+				:where="{ topic_url: { $in: ['features', 'insights', 'productivity', 'stories', 'updates'] } }"
 				:limit="10"
 				:sort="{ published: -1 }"
 				v-slot="{ data }"
