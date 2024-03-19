@@ -65,12 +65,12 @@ definePageMeta({
 	layout: "landing",
 });
 useSeoMeta({
-	title: "Waffle's Blog",
-	ogTitle: "My Amazing Site",
+	title: "Waffle's blog",
+	ogTitle: "Waffle's blog",
 	description:
-		"Explore out latest product updates, new features, founder stories, user insights and productivity tips",
+		"Explore out latest product updates, new features, founder stories, user insights and productivity tips.",
 	ogDescription:
-		"Explore out latest product updates, new features, founder stories, user insights and productivity tips",
+		"Explore out latest product updates, new features, founder stories, user insights and productivity tips.",
 	ogImage: "https://ik.imagekit.io/waffle/blog/Frame%20129.webp",
 	twitterCard: "summary_large_image",
 });
