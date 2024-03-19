@@ -9,7 +9,7 @@ topic: Product updates
 topic_url: updates
 ---
 
-Three months ago, we started building our visual organization app. After hundreds of Discord messages, Figma frames and Github contributions, we are happy to present [Waffle](), a new tool to keep your life organized in a single view.
+Three months ago, we started building our visual organization app. After hundreds of Discord messages, Figma frames and Github contributions, we are happy to present [Waffle](https://blog.heywaffle.app/stories/waffle/), a new tool to keep your life organized in a single view.
 
 Before unveiling Waffle to the world, we aim to test its core functionalities and gather initial feedback from potential users, primarily consisting of friends, family, and colleagues. This step is crucial as it allows us to learn from our earliest customers while also ensuring that Waffle is prepared to accommodate a large number of users.
 
