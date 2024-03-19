@@ -29,12 +29,12 @@
 				<div v-for="item in data">
 					<NuxtLink :to="item._path">
 						<img
-							class="aspect-video object-cover object-center rounded-3xl mb-2"
+							class="aspect-video object-cover object-center rounded-lg mb-2 border border-gray-200"
 							:src="`${item.img}?tr=w-500`"
 						/>
 					</NuxtLink>
 					<h4 class="text-gray-400 font-medium my-4 text-xs">
-						{{ item.published }}
+						{{ item.topic }}
 					</h4>
 					<NuxtLink
 						class="font-bold text-2xl leading-none mb-2 hover:text-yellow-500"
@@ -44,7 +44,7 @@
 							{{ item.title }}
 						</h3>
 					</NuxtLink>
-					<NuxtLink class="text-gray-800" :to="item._path">
+					<NuxtLink class="text-gray-800 mt-[50px]" :to="item._path">
 						{{ item.description }}
 					</NuxtLink>
 				</div>

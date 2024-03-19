@@ -1,13 +1,15 @@
 ---
 title: Waffle, the visual organization app
-description: Waffle is ready for testing by a limited number of closed beta users.
+description: Your new home to all your essentials. Waffle is a space to organize your life in a single view.
 published: "2024-03-26"
 img: https://ik.imagekit.io/waffle/blog/honeyblueberry.webp
 author: Daniel Chung
+alt: "Honey Blue Berry Waffle"
 topic: Founder stories
+topic_url: stories
 ---
 
-# We use dozens of digital tools.
+We use dozens of digital tools.
 
 We open countless browser tabs every day.
 
