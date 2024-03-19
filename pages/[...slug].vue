@@ -45,7 +45,7 @@
 				</div>
 				<img
 					:src="`${doc.img}?tr=w-1200`"
-					class="w-[1200px] mx-auto my-20"
+					class="w-[1000px] mx-auto my-20"
 					:alt="doc.alt"
 				/>
 			</template>
@@ -58,6 +58,7 @@
 				</article>
 			</template>
 		</ContentDoc>
+		<div class="mb-[30px]"></div>
 	</div>
 </template>
 
