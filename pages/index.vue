@@ -65,17 +65,25 @@ definePageMeta({
 	layout: "landing",
 });
 useSeoMeta({
-	ogType: "website",
-	title: "Waffle Blog",
-	ogTitle: "Waffle Blog",
+	// HTML Meta Tags
+	title: "Waffle — Blog",
 	description:
 		"Explore out latest product updates, new features, founder stories, user insights and productivity tips.",
+	// Facebook Meta Tags
+	ogUrl: "https://blog.heywaffle.app",
+	ogType: "website",
+	ogTitle: "Waffle — Blog",
 	ogDescription:
 		"Explore out latest product updates, new features, founder stories, user insights and productivity tips.",
-	ogImage: "https://ik.imagekit.io/waffle/blog/Frame%20129.webp",
-	ogImageAlt: "Dynamic widgets of the visual organization app Waffle",
-	ogUrl: "https://blog.heywaffle.app",
-	articleAuthor: "Daniel Chung",
+	ogImage: "https://alpha.n3-waffle.pages.dev/thumb2.webp",
+	ogImageAlt:
+		"Waffle is the visual organization app. Home to all your life's essentials.",
+	// Twitter Meta Tags
 	twitterCard: "summary_large_image",
+	twitterSite: "@heywaffleapp",
+	twitterTitle: "Waffle — Blog",
+	twitterDescription:
+		"Explore out latest product updates, new features, founder stories, user insights and productivity tips.",
+	twitterImage: "https://alpha.n3-waffle.pages.dev/thumb2.webp",
 });
 </script>
