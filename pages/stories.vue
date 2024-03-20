@@ -10,7 +10,8 @@ useSeoMeta({
 	ogTitle: "Waffle Blog — Founder stories",
 	description:
 		"Engage in every story and lesson we learn as we build Waffle.",
-	ogDescription: ".",
+	ogDescription:
+		"Engage in every story and lesson we learn as we build Waffle.",
 	ogImage: "",
 	ogImageAlt: "",
 	ogUrl: "https://blog.heywaffle.app/stories",

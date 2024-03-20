@@ -9,7 +9,7 @@ useSeoMeta({
 	title: "Waffle Blog — Productivity tips",
 	ogTitle: "Waffle Blog — Productivity tips",
 	description: "Master your productivity to focus on what matters.",
-	ogDescription: ".",
+	ogDescription: "Master your productivity to focus on what matters.",
 	ogImage: "",
 	ogImageAlt: "",
 	ogUrl: "https://blog.heywaffle.app/productivity",

@@ -10,7 +10,8 @@ useSeoMeta({
 	ogTitle: "Waffle Blog — New features",
 	description:
 		"Discover the newest features that make Waffle the best visual organization app.",
-	ogDescription: ".",
+	ogDescription:
+		"Discover the newest features that make Waffle the best visual organization app.",
 	ogImage: "",
 	ogImageAlt: "",
 	ogUrl: "https://blog.heywaffle.app/features",

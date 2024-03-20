@@ -9,7 +9,7 @@ useSeoMeta({
 	title: "Waffle Blog — Product updates",
 	ogTitle: "Waffle Blog — Product updates",
 	description: "Dive into our latest updates.",
-	ogDescription: ".",
+	ogDescription: "Dive into our latest updates.",
 	ogImage: "",
 	ogImageAlt: "",
 	ogUrl: "https://blog.heywaffle.app/updates",
