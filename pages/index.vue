@@ -65,8 +65,9 @@ definePageMeta({
 	layout: "landing",
 });
 useSeoMeta({
-	title: "Waffle's blog",
-	ogTitle: "Waffle's blog",
+	ogType: "website",
+	title: "Waffle Blog",
+	ogTitle: "Waffle Blog",
 	description:
 		"Explore out latest product updates, new features, founder stories, user insights and productivity tips.",
 	ogDescription:
@@ -75,7 +76,6 @@ useSeoMeta({
 	ogImageAlt: "Dynamic widgets of the visual organization app Waffle",
 	ogUrl: "https://blog.heywaffle.app",
 	articleAuthor: "Daniel Chung",
-	ogType: "website",
 	twitterCard: "summary_large_image",
 });
 </script>
