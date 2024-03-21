@@ -1,7 +1,7 @@
 ---
 title: Insight Example
 description: This is a sample description for the blog post, change it accordingly
-published: '2024-03-15'
+published: 2024-03-10
 img: https://ik.imagekit.io/waffle/blog/honeyblueberry.webp
 alt: Honey Blue Berry Waffle
 topic: User insights

@@ -2,7 +2,7 @@
 	<div class="mx-auto max-w-[700px] text-center mb-20 mt-36">
 		<ContentDoc v-slot="{ doc }">
 			<h1 class="font-semibold text-5xl mb-4">{{ doc.title }}</h1>
-			<p class="text-2xl font-regular text-gray-500">
+			<p class="text-2xl font-regular text-gray-800">
 				{{ doc.description }}
 			</p>
 		</ContentDoc>
@@ -34,7 +34,7 @@
 						/>
 					</NuxtLink>
 					<NuxtLink
-						class="text-gray-600 font-regular my-4 text-[13px]"
+						class="text-gray-800 font-regular my-4 text-[14px]"
 						:to="item.topic_url"
 					>
 						{{ item.topic }}</NuxtLink
