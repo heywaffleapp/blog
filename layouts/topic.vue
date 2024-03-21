@@ -16,10 +16,11 @@
 						<img
 							class="aspect-video object-cover object-center rounded-3xl mb-2"
 							:src="`${item.img}?tr=w-500`"
+							:alt="item.alt"
 						/>
 					</NuxtLink>
 					<h4 class="text-gray-400 font-medium my-4 text-xs">
-						{{ item.published }}
+						{{ readableDate(item.published) }}
 					</h4>
 					<NuxtLink
 						class="font-bold text-2xl leading-none mb-2 hover:text-yellow-500"
@@ -29,10 +30,7 @@
 							{{ item.title }}
 						</h3>
 					</NuxtLink>
-					<NuxtLink
-						class="text-gray-800"
-						:to="item._path"
-					>
+					<NuxtLink class="text-gray-800" :to="item._path">
 						{{ item.description }}
 					</NuxtLink>
 				</div>
@@ -48,6 +46,15 @@ const route = useRoute();
 const { data } = await useAsyncData("topic", () =>
 	queryContent(route.path).sort({ published: -1 }).limit(10).find()
 );
+
+function readableDate(date) {
+	const res = new Date(date).toLocaleString("en-US", {
+		month: "long",
+		day: "2-digit",
+		year: "numeric",
+	});
+	return res;
+}
 </script>
 
 <style scoped>

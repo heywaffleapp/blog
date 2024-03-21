@@ -31,6 +31,7 @@
 						<img
 							class="aspect-video object-cover object-center rounded-lg mb-2 border border-gray-200"
 							:src="`${item.img}?tr=w-500`"
+							:alt="item.alt"
 						/>
 					</NuxtLink>
 					<NuxtLink
