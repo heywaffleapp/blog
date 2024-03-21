@@ -66,28 +66,36 @@
 definePageMeta({
 	layout: "landing",
 });
+const route = useRoute();
+const { data } = await useAsyncData("post", () =>
+	queryContent(route.path).findOne()
+);
 
 useSeoMeta({
 	// HTML Meta Tags
-	title: "{{ doc.title }}",
-	description:
-		"Engage in every story and lesson we learn as we build Waffle.",
+	title: data.value.title,
+	description: data.value.description,
+	// "Engage in every story and lesson we learn as we build Waffle.",
 	// Facebook Meta Tags
-	ogUrl: "https://blog.heywaffle.app/stories",
+	ogUrl: `https://blog.heywaffle.app${data.value._path}`,
 	ogType: "website",
-	ogTitle: "Waffle Blog — Founder stories",
-	ogDescription:
-		"Engage in every story and lesson we learn as we build Waffle.",
-	ogImage: "https://alpha.n3-waffle.pages.dev/thumb2.webp",
-	ogImageAlt:
-		"Waffle is the visual organization app. Home to all your life's essentials.",
+	ogTitle: data.value.title,
+	//  "Waffle Blog — Founder stories",
+	ogDescription: data.value.description,
+	// "Engage in every story and lesson we learn as we build Waffle.",
+	ogImage: data.value.img,
+	// "https://alpha.n3-waffle.pages.dev/thumb2.webp",
+	ogImageAlt: data.value.alt,
+	// "Waffle is the visual organization app. Home to all your life's essentials.",
 	// Twitter Meta Tags
 	twitterCard: "summary_large_image",
 	twitterSite: "@heywaffleapp",
-	twitterTitle: "Waffle Blog — Founder stories",
-	twitterDescription:
-		"Engage in every story and lesson we learn as we build Waffle.",
-	twitterImage: "https://alpha.n3-waffle.pages.dev/thumb2.webp",
+	twitterTitle: data.value.title,
+	// "Waffle Blog — Founder stories",
+	twitterDescription: data.value.description,
+	// "Engage in every story and lesson we learn as we build Waffle.",
+	twitterImage: data.value.img,
+	// "https://alpha.n3-waffle.pages.dev/thumb2.webp",
 });
 
 function readableDate(date) {
