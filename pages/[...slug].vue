@@ -75,27 +75,19 @@ useSeoMeta({
 	// HTML Meta Tags
 	title: data.value.title,
 	description: data.value.description,
-	// "Engage in every story and lesson we learn as we build Waffle.",
 	// Facebook Meta Tags
 	ogUrl: `https://blog.heywaffle.app${data.value._path}`,
 	ogType: "website",
 	ogTitle: data.value.title,
-	//  "Waffle Blog — Founder stories",
 	ogDescription: data.value.description,
-	// "Engage in every story and lesson we learn as we build Waffle.",
 	ogImage: data.value.img,
-	// "https://alpha.n3-waffle.pages.dev/thumb2.webp",
 	ogImageAlt: data.value.alt,
-	// "Waffle is the visual organization app. Home to all your life's essentials.",
 	// Twitter Meta Tags
 	twitterCard: "summary_large_image",
 	twitterSite: "@heywaffleapp",
 	twitterTitle: data.value.title,
-	// "Waffle Blog — Founder stories",
 	twitterDescription: data.value.description,
-	// "Engage in every story and lesson we learn as we build Waffle.",
 	twitterImage: data.value.img,
-	// "https://alpha.n3-waffle.pages.dev/thumb2.webp",
 });
 
 function readableDate(date) {
