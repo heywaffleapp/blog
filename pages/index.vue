@@ -1,10 +1,12 @@
 <template>
 	<div class="mx-auto max-w-[700px] text-center mb-20 mt-36">
 		<ContentDoc v-slot="{ doc }">
-			<h1 class="font-semibold text-5xl mb-4">{{ doc.title }}</h1>
-			<p class="text-2xl font-regular text-gray-800">
+			<h1 class="font-semibold text-5xl mb-4 leading-[1.2]">
+				{{ doc.title }}
+			</h1>
+			<h2 class="text-2xl font-regular text-gray-800 leading-[1.2]">
 				{{ doc.description }}
-			</p>
+			</h2>
 		</ContentDoc>
 	</div>
 	<div class="mx-auto max-w-[1000px]">

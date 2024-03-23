@@ -1,5 +1,7 @@
 <template>
-	<footer class="bg-inherit text-gray-400 flex flex-row justify-center items-center w-full h-[60px] gap-[30px]">
+	<footer
+		class="bg-inherit text-gray-400 flex flex-row justify-center items-center w-full h-[60px] gap-[30px]"
+	>
 		<div class="h-[25px] grid items-center">
 			<NuxtLink
 				to="https://heywaffle.app/signin"
@@ -30,6 +32,14 @@
 				class="text-[14px] font-medium"
 			>
 				Roadmap
+			</NuxtLink>
+		</div>
+		<div class="h-[25px] grid items-center">
+			<NuxtLink
+				to="https://blog.heywaffle.app"
+				class="text-[14px] font-medium"
+			>
+				Blog
 			</NuxtLink>
 		</div>
 		<div class="h-[25px] grid items-center">

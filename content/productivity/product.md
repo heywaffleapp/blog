@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Productivity Example
 description: This is a sample description for the blog post, change it accordingly
 published: 2024-03-15
@@ -16,4 +16,4 @@ LoremLorem Ipsum is simply dummy text of the printing and typesetting industry. 
 
 ## Hello
 
-![titlu](link)
+![titlu](link) -->
