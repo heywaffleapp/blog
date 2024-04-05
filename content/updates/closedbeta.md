@@ -1,7 +1,7 @@
 ---
 title: We invited our first beta users
 description: After three months of building Waffle, we are ready for testing by a limited number of closed beta users.
-published: 2024-03-20
+published: 2024-03-20T00:00:00.000Z
 img: https://ik.imagekit.io/waffle/blog/Frame%20129.webp?updatedAt=1710876850874
 author: Daniel Chung
 alt: Honey Blue Berry Waffle
@@ -15,9 +15,9 @@ Before unveiling Waffle to the world, we aim to test its core functionalities an
 
 Our closed beta will be invite-only and is estimated to last for two weeks. Once all significant changes have been implemented, we'll let our beta testers to invite their friends and begin inviting users from our waitlist.
 
-Haven't registered yet? Join the list today :)
+Haven't registered yet? Join the [list](https://heywaffle.app/) today :)
 
-We can't wait to hear what you think about Waffle and see what you create.
+We can't wait to hear what you think about Waffle and see what you create (if you share it with us, of course).
 
 Meet you soon,
 
