@@ -2,7 +2,7 @@
 title: Waffle, the visual organization app
 description: Your new home to all your essentials. Waffle is a space to organize your life in a single view.
 published: 2024-04-11T00:00:00.000Z
-img: https://ik.imagekit.io/waffle/blog/honeyblueberry.webp
+img: https://ik.imagekit.io/waffle/blog/thumb.webp?updatedAt=1712954991389
 author: Daniel Chung
 alt: Honey Blue Berry Waffle
 topic: Founder stories

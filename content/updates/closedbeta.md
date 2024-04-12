@@ -1,8 +1,8 @@
 ---
 title: We invited our first beta users
-description: After three months of building Waffle, we are ready for testing by a limited number of closed beta users.
+description: After four months of building Waffle, we are ready for testing by a limited number of closed beta users.
 published: 2024-04-12T00:00:00.000Z
-img: https://ik.imagekit.io/waffle/blog/Frame%20129.webp?updatedAt=1710876850874
+img: https://ik.imagekit.io/waffle/blog/closedbeta.webp?updatedAt=1712956391476
 author: Daniel Chung
 alt: Honey Blue Berry Waffle
 topic: Product updates
