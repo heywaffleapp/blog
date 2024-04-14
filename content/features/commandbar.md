@@ -13,11 +13,9 @@ We've been listening to the first feedback, and today, we're excited to roll out
 
 We are introducing three key controls to help you customize your workspace:
 
-1\. Show/hide the widget bar - for those moments when you need more space.
-
-1\. Show/hide the board's grid - perfect for keeping things organized or going free-form.
-
-3\. Turn on/off the board's gravity - to choose between free movement or "bottom to top gravity" (the opposite of Tetris' gravity).
+1. **Show/hide the widget bar** - for those moments when you need more space.
+2. **Show/hide the board's grid** - perfect for keeping things organized or going free-form.
+3. **Turn on/off the board's gravity** - to choose between free movement or "bottom to top gravity" (the opposite of Tetris' gravity).
 
 Our goal with the new command bar is to make modifying your workspace as simple as possible. A big shout out to all our beta testers for their invaluable feedback during this first stage of Waffle!
 
