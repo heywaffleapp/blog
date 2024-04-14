@@ -2,7 +2,7 @@
 title: Meet our essential widgets
 description: Waffle's initial set of widgets allow us to create personalized and beautiful boards. Simple, useful and unique.
 published: 2024-04-12T00:00:00.000Z
-img: https://ik.imagekit.io/waffle/blog/essentials.webp?updatedAt=1711112822263
+img: https://ik.imagekit.io/waffle/blog/waffle%20the%20visual%20org%20board.webp?updatedAt=1712954359085
 author: Daniel Chung
 alt: Waffle app's essential widgets.
 topic: New features
