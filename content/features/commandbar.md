@@ -1,5 +1,5 @@
 ---
-title: New board command bar
+title: A command bar for the board
 description: We are introducing a new command bar with three key controls to help you customize your workspace.
 published: 2024-04-14T00:00:00.000Z
 img: https://ik.imagekit.io/waffle/blog/commandbar.webp?updatedAt=1713021570831
