@@ -1,67 +1,64 @@
 <template>
 	<footer
-		class="bg-inherit text-gray-400 flex flex-row justify-center items-center w-full h-[60px] gap-[30px]"
+		class="bg-inherit text-gray-800 flex flex-col sm:flex-row sm:justify-center items-center w-full gap-4 sm:gap-[5px] py-10"
 	>
-		<div class="h-[25px] grid items-center">
+		<div>
 			<NuxtLink
 				to="https://heywaffle.app/signin"
-				class="text-[14px] font-medium"
+				class="h-[25px] grid place-content-center text-[14px] font-medium hover:text-gray-950 hover:bg-gray-100 py-4 px-5 rounded-lg"
 			>
 				Sign in
 			</NuxtLink>
 		</div>
-		<div class="h-[25px] grid items-center">
+		<div>
 			<NuxtLink
 				to="https://heywaffle.app/about"
-				class="text-[14px] font-medium"
+				class="h-[25px] grid place-content-center text-[14px] font-medium hover:text-gray-950 hover:bg-gray-100 py-4 px-5 rounded-lg"
 			>
 				Our story
 			</NuxtLink>
 		</div>
-		<div class="h-[25px] grid items-center">
+		<div>
 			<NuxtLink
 				to="https://heywaffle.app/pricing"
-				class="text-[14px] font-medium"
+				class="h-[25px] grid place-content-center text-[14px] font-medium hover:text-gray-950 hover:bg-gray-100 py-4 px-5 rounded-lg"
 			>
 				Pricing
 			</NuxtLink>
 		</div>
-		<div class="h-[25px] grid items-center">
+		<div>
 			<NuxtLink
 				to="https://heywaffle.app/roadmap"
-				class="text-[14px] font-medium"
+				class="h-[25px] grid place-content-center text-[14px] font-medium hover:text-gray-950 hover:bg-gray-100 py-4 px-5 rounded-lg"
 			>
 				Roadmap
 			</NuxtLink>
 		</div>
-		<div class="h-[25px] grid items-center">
+		<div>
 			<NuxtLink
-				to="https://blog.heywaffle.app"
-				class="text-[14px] font-medium"
+				to="/"
+				class="text-[14px] font-medium h-[25px] grid place-content-center hover:text-gray-950 hover:bg-gray-100 py-4 px-5 rounded-lg"
 			>
 				Blog
 			</NuxtLink>
 		</div>
-		<div class="h-[25px] grid items-center">
+		<div>
 			<NuxtLink
 				target="_blank"
 				to="https://instagram.com/heywaffleapp"
-				class="text-[14px] font-medium"
+				class="text-[14px] font-medium h-[25px] grid place-content-center hover:text-gray-950 hover:bg-gray-100 py-4 px-5 rounded-lg"
 			>
 				<SVGInstagram />
 			</NuxtLink>
 		</div>
-		<div class="h-[25px] grid items-center">
+		<div>
 			<NuxtLink
 				target="_blank"
 				to="https://twitter.com/heywaffleapp"
-				class="text-[14px] font-medium"
+				class="h-[25px] grid place-content-center text-[14px] font-medium hover:text-gray-950 hover:bg-gray-100 py-4 px-5 rounded-lg"
 			>
 				<SVGTwitter />
 			</NuxtLink>
 		</div>
-		<!-- <div class="h-[25px] text-[15px] font-medium grid items-center"> -->
-		<!-- 	© Waffle 2024 -->
-		<!-- </div> -->
 	</footer>
 </template>
