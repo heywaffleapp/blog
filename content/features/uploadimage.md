@@ -6,6 +6,7 @@ img: https://ik.imagekit.io/waffle/blog/ImageSelector.webp?updatedAt=17132733832
 author: Daniel Chung
 alt: Waffle's image widget and its selector.
 topic: New features
+topic_url: features
 ---
 
 Starting from today, you can give your board a personal touch by uploading your own images using the **Image Widget**! Keep in mind, though, that images must be under 5MB in file size, so no uploading your unedited 18MB photos.

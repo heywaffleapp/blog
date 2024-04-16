@@ -15,18 +15,18 @@ In contrast, we have some widgets with very few elements, and they work perfectl
 
 This is the list of our first set of widgets, what we call "the essentials":
 
-- **Title**: to separate your board into sections.
-- **Image**: to insert images.
-- **Note**: to write paragraphs, bullet points, and checklists.
-- **Link**: to insert links.
-- **Tasks**: to prioritize the most important tasks of the day.
-- **Event**: to add important events, appointments, or happenings.
-- **Quote**: to insert any quotes.
-- **Habits**: to track your habits throughout the days and week.
-- **Meals**: to plan your meals (breakfast, lunch, and dinner).
-- **Mood**: to express a mood with an emoji 🫡.
-- **Date**: to display the current date (day and month).
-- **Weather**: to display the current weather of a city.
+-   **Title**: to separate your board into sections.
+-   **Image**: to insert images.
+-   **Note**: to write paragraphs, bullet points, and checklists.
+-   **Link**: to insert links.
+-   **Tasks**: to prioritize the most important tasks of the day.
+-   **Event**: to add important events, appointments, or happenings.
+-   **Quote**: to insert any quotes.
+-   **Habits**: to track your habits throughout the days and week.
+-   **Meals**: to plan your meals (breakfast, lunch, and dinner).
+-   **Mood**: to express a mood with an emoji 🫡.
+-   **Date**: to display the current date (day and month).
+-   **Weather**: to display the current weather of a city.
 
 Twelve different widgets that allow us to create personalized and beautiful boards. This doesn't mean that we don't need any other types of widgets. We have a detailed roadmap of our widget production, and you can suggest new ones on the "Share feedback" button inside the menu of the app.
 
