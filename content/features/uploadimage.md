@@ -8,7 +8,7 @@ alt: Waffle's image widget and its selector.
 topic: New features
 ---
 
-Starting from today, you can give your boards a personal touch by uploading your own images using the **Image Widget**! Keep in mind, though, that images must be under 5MB in file size, so no uploading your unedited 18MB photos.
+Starting from today, you can give your board a personal touch by uploading your own images using the **Image Widget**! Keep in mind, though, that images must be under 5MB in file size, so no uploading your unedited 18MB photos.
 
 With this new feature, you can now choose between uploading images from your computer or searching for high-quality, curated photos directly from Unsplash.
 
