@@ -1,6 +1,6 @@
 ---
 title: Upload your own images
-description: Personalize your board by uploading images from your computer.
+description: Personalize your board by uploading images from your computer. Your dog or cat deserves its own photo section.
 published: 2024-04-17T00:00:00.000Z
 img: https://ik.imagekit.io/waffle/blog/ImageSelector.webp?updatedAt=1713273383207
 author: Daniel Chung
