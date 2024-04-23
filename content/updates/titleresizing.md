@@ -2,7 +2,7 @@
 title: Resizable titles
 description: Now you can resize the Titles however you like, vertically or horizontally, to create custom sections and content blocks.
 published: 2024-04-19
-img: https://ik.imagekit.io/waffle/blog/title.webp?updatedAt=1713885409062
+img: https://ik.imagekit.io/waffle/blog/title.webp?updatedAt=1713885649619
 author: Daniel Chung
 alt: A Waffle app board with all kinds of widgets.
 topic: Product updates
