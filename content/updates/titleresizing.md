@@ -13,6 +13,8 @@ Some of our beta testers suggested that being able to resize widgets freely (apa
 
 Having the option to resize a Title can help us personalize our boards even more, allowing us separate the content with sections both vertically and horizontally, as well as blocks of columns or rows for multiple purposes.
 
+![The new resize feature](https://ik.imagekit.io/waffle/blog/titleresizing2.gif?updatedAt=1713885694514)
+
 We are rolling out this new feature today.
 
 Have fun resizing!
