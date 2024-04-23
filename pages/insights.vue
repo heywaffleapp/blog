@@ -1,4 +1,6 @@
-<template>User insights</template>
+<template>
+	<Topic title="User insights" path="/insights" />
+</template>
 
 <script setup>
 definePageMeta({

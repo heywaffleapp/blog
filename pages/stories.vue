@@ -1,4 +1,6 @@
-<template>Founder stories</template>
+<template>
+	<Topic title="Founder stories" path="/stories" />
+</template>
 
 <script setup>
 definePageMeta({

@@ -1,4 +1,6 @@
-<template>Product updates</template>
+<template>
+	<Topic title="Product updates" path="/updates" />
+</template>
 
 <script setup>
 definePageMeta({

@@ -1,4 +1,6 @@
-<template>Productivity tips</template>
+<template>
+	<Topic title="Productivity tips" path="/productivity" />
+</template>
 
 <script setup>
 definePageMeta({
