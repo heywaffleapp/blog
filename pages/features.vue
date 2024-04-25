@@ -1,4 +1,6 @@
-<template>New features</template>
+<template>
+	<Topic title="New features" path="/features" />
+</template>
 
 <script setup>
 definePageMeta({
