@@ -2,7 +2,7 @@
 title: Resizable images
 description: Images, meet resizing. Adjust the size of the image, vertically and horizontally, however you like.
 published: 2024-04-24
-img: https://ik.imagekit.io/waffle/blog/imageresizing.webp?updatedAt=1714057818977
+img: https://ik.imagekit.io/waffle/blog/imageresizing.webp?updatedAt=1714058170488
 author: Daniel Chung
 alt: A variety of images of all sizes.
 topic: Product updates
